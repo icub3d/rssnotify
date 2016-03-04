@@ -27,7 +27,7 @@ type update struct {
 // e-mail message.
 var emailTemplate = template.Must(template.New("email").Funcs(template.FuncMap{
 	"formattedDate": func(t time.Time) string {
-		return t.Format("2006-02-01 15:04:05")
+		return t.Format("2006-01-02 15:04:05")
 	},
 }).Parse(`To: {{.To}}
 From: {{.From}}
