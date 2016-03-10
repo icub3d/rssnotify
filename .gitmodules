@@ -1,0 +1,8 @@
+[submodule "vendor/github.com/SlyMarbo/rss"]
+	path = vendor/github.com/SlyMarbo/rss
+	url = https://github.com/SlyMarbo/rss
+	branch = master
+[submodule "vendor/github.com/boltdb/bolt"]
+	path = vendor/github.com/boltdb/bolt
+	url = https://github.com/boltdb/bolt
+	branch = master
